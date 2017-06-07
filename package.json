@@ -2,13 +2,14 @@
   "name": "web-react-ie8-antd-cool",
   "version": "1.0.0",
   "description": "react ie8 antd",
-  "author": "¡ı«Ï",
+  "author": "√Å√µ√á√¨",
   "entry": {
     "index": "./src/page/index.js",
     "user": "./src/page/user.js"
   },
   "scripts": {
     "dev": "dora -p 8001 --plugins \"webpack?disableNpmInstall,hmr,proxy,livereload?enableJs=false&injectHost=127.0.0.1,browser-history?index=/src/page/index.html\"",
+    "ie": "dora -p 8001 --plugins \"webpack?disableNpmInstall,proxy,livereload?enableJs=false&injectHost=127.0.0.1,browser-history?index=/src/page/index.html\"",
     "build": "atool-build"
   },
   "dependencies": {
